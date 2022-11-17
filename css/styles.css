@@ -249,7 +249,7 @@ p {
 .btn-service:focus{
   background-color: var(--primary-background-color);
   color:var(--accent-color);
-  transform: scale(1.15);
+ 
  
 }
 .backdrop {
@@ -279,7 +279,7 @@ p {
   transition: background 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
   transition: transform 250ms var(--timing-function);
-  transform: scale(1.15);
+  
 
 
 }
