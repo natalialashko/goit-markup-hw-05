@@ -471,7 +471,7 @@ p {
 .actions-item-link:focus {
   background-color: var(--accent-color);
   color: var(--additional-text-color);
-  transition: background-color 250ms var(--timing-function);
+  
 }
 
 /* --------Ceкція постійні клієнти------- */
@@ -496,8 +496,8 @@ p {
   border-radius: 4px;
   color: #afb1b8;
   fill: #afb1b8;
-  transition: background-color 250ms var(--timing-function), color 500ms var(--timing-function),
-    border 250ms var(--timing-function);
+  transition: color 500ms var(--timing-function),
+              border 250ms var(--timing-function);
 }
 
 .company-link:hover {
@@ -557,7 +557,7 @@ p {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   color: var(--additional-text-color);
-  transition: background-color 500ms var(--timing-function), color 500ms var(--timing-function);
+  transition: color 500ms var(--timing-function);
 }
 
 .actions-item-link.footer:hover,
